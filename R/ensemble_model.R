@@ -14,7 +14,7 @@ ensemble_model <- function(data, gene_names, clean_data = FALSE) {
 
   ## Hardcoding the organism for now, 1 = E. coli
   #ui <- user_inputs()
-  ui <- 1
+  ui <- list(organism = 1)
 
   #####
   message("Processing data matrix...")
